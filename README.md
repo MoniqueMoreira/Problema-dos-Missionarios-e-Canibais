@@ -19,7 +19,7 @@ apropriado. É boa idéia verificar a existência de estados repetidos?
 
 ## No arquivo ***Out.txt*** podemos ver o Grafo criado para solução do problema.
 
-##Legendas:
+## Legendas:
 md = missionários do lado direito;
 me = missionários do lado esquerdo;
 ma = missionários antes de muda de lado(estado anterior);
