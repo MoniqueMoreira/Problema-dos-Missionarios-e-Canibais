@@ -21,15 +21,25 @@ apropriado. É boa idéia verificar a existência de estados repetidos?
 
 ## Legendas:
 md = missionários do lado direito;
+
 me = missionários do lado esquerdo;
+
 ma = missionários antes de muda de lado(estado anterior);
+
 cd = canibais do lado direito;
+
 ce = canibais do lado esquerdo;
+
 ca = canibais antes da troca de lado(estado anterior);
+
 b = barco(1 - lado direito, 0 - lado esquerdo);
+
 b1 = posição do barco antes da trocar(estado anterior);
+
 g = ponteiro que aponta para grafo;
+
 p = ponteiro que aponta para pilha(responsável por marca os estados visitados);
 
-Estado anterior(ma, cd, b1) -> Estado atual(md, cd, b)
+Estado anterior(ma, cd, b1) -> Estado atual(md, cd, b);
+
 (me, ce, b) usado para impedir que outro lado fique com mais canibais do que missionários.
