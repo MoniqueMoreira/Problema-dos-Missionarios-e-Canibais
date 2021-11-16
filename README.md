@@ -40,6 +40,6 @@ g = ponteiro que aponta para grafo;
 
 p = ponteiro que aponta para pilha(responsável por marca os estados visitados);
 
-Estado anterior(ma, cd, b1) -> Estado atual(md, cd, b);
+Estado anterior(ma, ca, b1) -> Estado atual(md, cd, b);
 
 (me, ce, b) usado para impedir que outro lado fique com mais canibais do que missionários.
